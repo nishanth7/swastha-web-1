@@ -9770,3 +9770,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+/* hide address bar on mobile devices */
+
+    @media (max-width: 480px) {
+      .addressBar {
+        display: none; } }
