@@ -9605,28 +9605,28 @@ h1, h2, h3, h4, h5,
   height: 400px;
 }
 
-.services {
+.Treatments {
   display: block;
   width: 100%;
   position: relative;
   transition: all 0.3s ease;
 }
-.services .d-block {
+.Treatments .d-block {
   margin-bottom: 20px;
 }
-.services .d-block:hover .icon {
+.Treatments .d-block:hover .icon {
   background: #E36D16;
 }
-.services .d-block:hover .icon:after {
+.Treatments .d-block:hover .icon:after {
   bottom: -7px;
   height: 7px;
   left: 4px;
   right: 4px;
 }
-.services .d-block:hover .icon span {
+.Treatments .d-block:hover .icon span {
   color: #fff;
 }
-.services .icon {
+.Treatments .icon {
   line-height: 1.3;
   position: relative;
   width: 70px;
@@ -9639,7 +9639,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.3s ease;
   box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
 }
-.services .icon:after {
+.Treatments .icon:after {
   position: absolute;
   bottom: -5px;
   left: 5px;
@@ -9650,23 +9650,23 @@ h1, h2, h3, h4, h5,
   border-radius: 0 0 3px 3px;
   transition: all 0.3s ease;
 }
-.services .icon span {
+.Treatments .icon span {
   font-size: 40px;
   color: #e36d16;
 }
-.services .media-body h3 {
+.Treatments .media-body h3 {
   font-weight: 700;
   font-size: 18px;
   color: #000000;
 }
-.services .btn-custom {
+.Treatments .btn-custom {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   color: #000000;
   border-bottom: 2px solid #e6e6e6;
 }
-.services .btn-custom:hover {
+.Treatments .btn-custom:hover {
   color: #e36d16;
   border-color: #e36d16;
 }
