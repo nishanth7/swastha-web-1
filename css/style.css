@@ -8374,8 +8374,10 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 700px;
-        position: relative; }
+        height: 950px;
+        position: relative; 
+        left: 105px;
+      }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           z-index: 0;
           color: rgba(255, 255, 255, 0.9); }
@@ -8386,6 +8388,11 @@ h1, h2, h3, h4, h5,
           line-height: 1;
           text-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1); }
           @media (max-width: 991.98px) {
+            .owl-carousel.home-slider .slider-item .slider-text {
+              height: 1160px;
+              position: relative;
+              left: 0px;
+            }
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 40px;
               letter-spacing: 3px; } }
@@ -9775,3 +9782,11 @@ textarea.form-control {
     @media (max-width: 480px) {
       .addressBar {
         display: none; } }
+
+.addressBar {
+  padding: 5px 0;
+}
+
+.logoImg {
+  height: 40px;
+}
