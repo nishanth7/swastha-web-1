@@ -8374,9 +8374,9 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 950px;
+        height: 400px;
         position: relative; 
-        left: 105px;
+        left: 170px;
       }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           z-index: 0;
@@ -9789,4 +9789,22 @@ textarea.form-control {
 
 .logoImg {
   height: 40px;
+}
+
+.headderBannerText {
+  background: #273b63;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.treatMentsDiv {
+  /* border: 1px solid;
+  border-radius: 20px; */
+}
+.treatMentsDiv:hover {
+  transform: scale(1.1);
+    /* background: #273b63; */
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+    border: 1px solid;
+    border-radius: 20px;
 }
