@@ -8621,6 +8621,15 @@ h1, h2, h3, h4, h5,
         background: #e36d16;
         color: #fff; }
 
+        .btn.btn-secondary-blue {
+          background: #273b63;
+          border: 1px solid #273b63;
+          color: #fff; }
+          .btn.btn-secondary:hover {
+            border: 1px solid #273b63;
+            background: transparent;
+            color: #273b63; }
+
 .img-video {
   background-position: top center !important; }
   @media (max-width: 767.98px) {
