@@ -9789,8 +9789,14 @@ textarea.form-control {
 /* hide address bar on mobile devices */
 
     @media (max-width: 480px) {
-      .addressBar {
+      .addressBarCall {
         display: none; } }
+  @media (max-width: 480px) {
+          .addressBarLogo {
+            padding-left: 18vw;
+            margin-bottom: 0.2rem !important;
+  } 
+    }
 
 .addressBar {
   padding: 5px 0;
